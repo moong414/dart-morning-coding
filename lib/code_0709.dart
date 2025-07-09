@@ -81,7 +81,7 @@ class Solution {
     nums.sort();
     return nums[nums.length ~/ 2];
   }
-  //↑↑↑ 중간요소가 가장 많은 수
+  //↑↑↑ 중간요소가 가장 많은 수 (이것도 과반수 이상일 경우만 사용)
 }
 
 
