@@ -9,6 +9,8 @@ void main() {
 }
 
 //933. 최근 호출 수 
+//문제 풀지못함.....................................
+//정답=============================================
 class RecentCounter {
   RecentCounter();
 
@@ -27,10 +29,10 @@ class RecentCounter {
 }
 
 //정답=============================================
-class RecentCounter3 {
+class RecentCounter2 {
   Queue<int> queue = Queue<int>();
 
-  RecentCounter3();
+  RecentCounter2();
 
   int ping(int t) {
     queue.add(t);
