@@ -9,7 +9,6 @@ class Solution {
   bool containsNearbyDuplicate(List<int> nums, int k) {
     //nums중에 '같은 값' 을 가진 인덱스를 구하자
     Map<int, int> index = {};
-    Set<int> minus = {};
 
     for (int i = 0; i < nums.length; i++) {
       if (!index.values.contains(nums[i])) {
